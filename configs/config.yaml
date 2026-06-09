@@ -1,0 +1,9 @@
+defaults:
+  - kb: kb
+  - ner: ner
+  - retriever: retriever
+  - logging: logging
+projects:
+  - name: medyczny-ai-servicedesk
+  - version: "1.0.0"
+  - language: pl

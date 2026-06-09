@@ -1,0 +1,28 @@
+kb:
+  systems:
+      - id: SYS-01
+        name: PACS
+      - id: SYS-02
+        name: EHR
+      - id: SYS-03
+        name: LIS
+      - id: SYS-04
+        name: RIS
+      - id: SYS-05
+        name: HIS
+      - id: SYS-06
+        name: Pharmacy
+      - id: SYS-07
+        name: ICU Monitor
+      - id: SYS-08
+        name: Scheduling
+      - id: SYS-09
+        name: Billing
+      - id: SYS-10
+        name: HL7/FHIR Gateway
+
+  problems_per_system: 10
+  procedures_per_system: 10
+
+  output_dir: data/raw
+  output_file: knowledge_base.json
