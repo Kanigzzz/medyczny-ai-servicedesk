@@ -403,13 +403,14 @@ data/raw/problems.json
          │
          ▼
 chunker.py
-  child chunk (128 tokenów) ← do retrieval (wektoryzacja)
-  parent chunk (512 tokenów) ← zwracany do LLM jako kontekst
+  jeden chunk per dokument (flat chunking)
+  tekst = [title + description + error_codes]
          │
          ▼
 indexer.py
-  bi-encoder → wektor z [title + description + error_codes]
+  bi-encoder → wektor z chunku
   zapis do ChromaDB z metadanymi
+  pełny JSON dokumentu zwracany do LLM jako kontekst
          │
          ▼
 data/chromadb/   (gotowa baza wektorowa)
