@@ -1,0 +1,21 @@
+#python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+
+#Dane i modele
+data/
+models/
+logs/
+metrics/
+
+#env
+.env
+
+#IDE
+.vscode/
+.idea/
