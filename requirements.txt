@@ -1,0 +1,36 @@
+# Data & generation 
+  ollama
+  pyyaml
+  hydra-core
+  omegaconf 
+  
+  # Embeddings & vector store
+  sentence-transformers
+  chromadb
+  
+  # Retrieval
+  rank-bm25 
+
+  # NER
+  spacy
+  mlflow
+  
+  # Logging
+  loguru    
+
+  # Pipeline & versioning
+  dvc
+
+  # Utils
+  tqdm
+  pandas
+  numpy
+  
+  # Testing
+  pytest
+  pytest-cov
+
+  # Code quality
+  black
+  isort
+  flake8
